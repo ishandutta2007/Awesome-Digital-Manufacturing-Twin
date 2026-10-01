@@ -49,46 +49,46 @@
 > **Empowering Open Industry 4.0 Standardizations:** ⚡  
 > Open-source manufacturing twins leverage **Asset Administration Shell (AAS)**, **OPC-UA**, **Eclipse IoT**, and **ROS 2** robotics stacks to ensure data ownership and eliminate vendor lock-in.
 
-*Projects below are sorted by GitHub Star Count (Descending).* ⭐
+*Projects below are sorted by GitHub Stars_Count (Descending).* ⭐
 
 1. **[ROS 2 (Robot Operating System)](https://github.com/ros2/ros2)**  
-   [![GitHub stars](https://img.shields.io/github/stars/ros2/ros2?style=social&color=white)](https://github.com/ros2/ros2/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/ros2/ros2?style=social&color=white)](https://github.com/ros2/ros2/stargazers)  
    *Open robotics middleware frequently used as the live control, kinematic, and simulation twin layer for flexible manufacturing cells.* 🤖
 
 2. **[ThingsBoard](https://github.com/thingsboard/thingsboard)**  
-   [![GitHub stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
    *Open-source IoT platform for data collection, processing, visualization, and digital twin device management.* 📊
 
 3. **[Node-RED](https://github.com/node-red/node-red)**  
-   [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
    *Low-code programming tool for wiring together industrial IoT hardware devices, APIs, and digital twin data flows.* 🔌
 
 4. **[FIWARE Context Broker](https://github.com/FIWARE/context.Orion)**  
-   [![GitHub stars](https://img.shields.io/github/stars/FIWARE/context.Orion?style=social&color=white)](https://github.com/FIWARE/context.Orion/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/FIWARE/context.Orion?style=social&color=white)](https://github.com/FIWARE/context.Orion/stargazers)  
    *NGSI-based open context broker approach adapted for factory data fabrics and multi-source manufacturing twins.* 🌐
 
 5. **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)**  
-   [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers)  
    *Open digital twin framework for industrial IoT—API-centric state shadows of machines, sensors, and production lines.* 👥
 
 6. **[Apache StreamPipes](https://github.com/apache/streampipes)**  
-   [![GitHub stars](https://img.shields.io/github/stars/apache/streampipes?style=social&color=white)](https://github.com/apache/streampipes/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/apache/streampipes?style=social&color=white)](https://github.com/apache/streampipes/stargazers)  
    *Self-service industrial IoT toolbox for stream analytics and operational dashboards feeding live factory twins.* 🌊
 
 7. **[Eclipse BaSyx](https://github.com/eclipse-basyx/basyx-java-sdk)**  
-   [![GitHub stars](https://img.shields.io/github/stars/eclipse-basyx/basyx-java-sdk?style=social&color=white)](https://github.com/eclipse-basyx/basyx-java-sdk/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-basyx/basyx-java-sdk?style=social&color=white)](https://github.com/eclipse-basyx/basyx-java-sdk/stargazers)  
    *Open Industry 4.0 Asset Administration Shell (AAS) implementation—standardized digital representations of manufacturing assets.* 🏗️
 
 8. **[OpenPLC Editor](https://github.com/thiagoralves/OpenPLC_Editor)**  
-   [![GitHub stars](https://img.shields.io/github/stars/thiagoralves/OpenPLC_Editor?style=social&color=white)](https://github.com/thiagoralves/OpenPLC_Editor/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/thiagoralves/OpenPLC_Editor?style=social&color=white)](https://github.com/thiagoralves/OpenPLC_Editor/stargazers)  
    *Open IEC 61131-3 programmable logic controller automation stack used to connect physical factory equipment to twin backends.* ⚙️
 
 9. **[Open Factory Twin (OFacT)](https://github.com/openfactorytwin/ofact)**  
-   [![GitHub stars](https://img.shields.io/github/stars/openfactorytwin/ofact?style=social&color=white)](https://github.com/openfactorytwin/ofact/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/openfactorytwin/ofact?style=social&color=white)](https://github.com/openfactorytwin/ofact/stargazers)  
    *Open digital twin framework for production logistics, material flow state models, and closed-loop work instructions.* 📦
 
 10. **[Salabim (Discrete-Event Simulation)](https://github.com/salabim/salabim)**  
-    [![GitHub stars](https://img.shields.io/github/stars/salabim/salabim?style=social&color=white)](https://github.com/salabim/salabim/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/salabim/salabim?style=social&color=white)](https://github.com/salabim/salabim/stargazers)  
     *Object-oriented Python discrete-event factory simulation package for offline manufacturing twin predictive modeling.* ⏱️
 
 ---

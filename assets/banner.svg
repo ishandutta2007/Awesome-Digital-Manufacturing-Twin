@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Dark Industrial Gradient Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Vibrant Cyan Accent Gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Animated Pulse Glowing Effect -->
+    <linearGradient id="pulseGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #38bdf8;
+      }
+      
+      /* Subtle animations in background elements */
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) scale(1); opacity: 0.3; }
+        50% { transform: translateY(-15px) scale(1.1); opacity: 0.7; }
+        100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      }
+      
+      @keyframes waveFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -100; }
+      }
+
+      .particle-1 { animation: floatParticle 4s ease-in-out infinite; }
+      .particle-2 { animation: floatParticle 6s ease-in-out infinite 1s; }
+      .wave-line { stroke-dasharray: 10, 10; animation: waveFlow 5s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
+
+  <!-- Background Dynamic Elements (Layered behind text) -->
+  <g opacity="0.4">
+    <!-- Glowing digital twin nodes and wireframe curves -->
+    <path d="M -50 260 Q 300 120 600 240 T 1250 180" fill="none" stroke="url(#accentGradient)" stroke-width="3" class="wave-line"/>
+    <path d="M -50 280 Q 400 180 800 280 T 1250 140" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Abstract 3D Digital Twin Mesh / Nodes on Right Side -->
+    <circle cx="950" cy="140" r="6" fill="#38bdf8" class="particle-1"/>
+    <circle cx="1050" cy="100" r="8" fill="#818cf8" class="particle-2"/>
+    <circle cx="1110" cy="180" r="5" fill="#34d399" class="particle-1"/>
+    <line x1="950" y1="140" x2="1050" y2="100" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="1050" y1="100" x2="1110" y2="180" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="950" y1="140" x2="1110" y2="180" stroke="#34d399" stroke-width="1" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Decorative Top Bar Accent -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accentGradient)"/>
+
+  <!-- Foreground Content Container -->
+  <g transform="translate(60, 0)">
+    <!-- Pill Badge -->
+    <g transform="translate(0, 55)">
+      <rect width="230" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="18" cy="16" r="5" fill="#10b981"/>
+      <text x="32" y="21" class="badge-text">INDUSTRY 4.0 &amp; IIOT ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title (Clear, foreground, unobstructed) -->
+    <text x="0" y="145" class="title-text">Awesome Digital Manufacturing Twin 🏭✨</text>
+
+    <!-- Subtitle (Clear, foreground, unobstructed) -->
+    <text x="0" y="195" class="subtitle-text">Curated SaaS Platforms, Industrial IoT Frameworks &amp; Open-Source Simulation Stacks</text>
+    <text x="0" y="225" class="subtitle-text" font-size="16px" fill="#64748b">Empowering Factory Virtualization, Closed-Loop Automation &amp; AAS Standards</text>
+
+    <!-- Bottom Tech Tags -->
+    <g transform="translate(0, 255)">
+      <rect x="0" y="0" width="110" height="26" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="12" y="17" font-family="Segoe UI" font-size="12" fill="#cbd5e1" font-weight="500">Eclipse Ditto</text>
+
+      <rect x="120" y="0" width="110" height="26" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="132" y="17" font-family="Segoe UI" font-size="12" fill="#cbd5e1" font-weight="500">Eclipse BaSyx</text>
+
+      <rect x="240" y="0" width="130" height="26" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="252" y="17" font-family="Segoe UI" font-size="12" fill="#cbd5e1" font-weight="500">Azure Digital Twins</text>
+
+      <rect x="380" y="0" width="100" height="26" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="392" y="17" font-family="Segoe UI" font-size="12" fill="#cbd5e1" font-weight="500">OPC-UA / ROS2</text>
+    </g>
+  </g>
+</svg>
